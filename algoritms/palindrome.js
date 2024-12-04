@@ -1,4 +1,4 @@
-
+// принимает на вход любое количество аргументов. Все знаки препинания отбрасываются
 function palindrome(str) {
     const cleanedStr = str.replace(/[^\w]/g, '').toLowerCase()
     return cleanedStr === cleanedStr.split('').reverse().join('')
@@ -10,5 +10,5 @@ if (args.length) {
         console.log(`"${arg}" is a palindrome: ${palindrome(arg)}`);
     })
 } else {
-    console.log('Переданы неверные аргументы')
+    console.log('Функции palindrome нужно передать аргумент, в виде строки')
 }

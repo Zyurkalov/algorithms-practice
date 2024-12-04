@@ -11,5 +11,5 @@
   - установить зависимости `npm i`
   - для запуска любого кода используйте node.js. Напрмиер:
 ```
-node algoritms/palindrome.js 'Malayalam!'
+node algoritms/palindrome.js 'Was it a car, or a cat I saw?!'
 ``` 
