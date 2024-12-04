@@ -1,4 +1,4 @@
-# algorithms-practice — gрактикуем алгоритмы
+# algorithms-practice — практикуем алгоритмы
 ### Проект разделен на три раздела, в каждом свои примеры кода:
 - algoritms
 - codewars
