@@ -1,4 +1,4 @@
-const factorial = function() {
+const factorial = () => {
     const memo = {}
 
     return function getFactorial(f) {
@@ -8,6 +8,6 @@ const factorial = function() {
         memo.f = f * getFactorial(f-1)
         return memo.f
     }
-}();
+};
 
-console.log(factorial(5)) //120 
+console.log(factorial()(5)) //120 
