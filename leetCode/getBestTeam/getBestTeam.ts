@@ -1,4 +1,4 @@
-//лучшее решение, но все еще не проходит проверку по времени выполнения
+//лучшее, первое решение, но все еще не проходит проверку по времени выполнения
 function getBestTeam(N: number, staff: number[], K: number): number {
     if (K === N) return staff.reduce((sum, skill) => sum + skill, 0);
     const maxTeam = Math.min(K, N);
