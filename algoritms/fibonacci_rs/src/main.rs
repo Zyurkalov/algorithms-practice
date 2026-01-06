@@ -1,5 +1,5 @@
 fn main() {
-    println!("Fibonacci Sequence:");
+    println!("Fibonacci_rs:");
     
     let n = std::env::args()
         .nth(1) 
